@@ -27,6 +27,7 @@ section, header, footer{
 	display: flex;
 	flex-wrap: wrap;
 	height: 100%;
+	justify-content: space-between;
 }
 
 .row > * {
@@ -69,12 +70,24 @@ section, header, footer{
 	margin: 1em 0;
 }
 
+.vertical-margin-2 {
+	margin: 2em 0;
+}
+
 .padding-1 {
 	padding: 1em;
 }
 
 .padding-2 {
 	padding: 2em;
+}
+
+.vertical-padding-1 {
+	padding: 1em 0;
+}
+
+.vertical-padding-2 {
+	padding: 2em 0;
 }
 
 .text-small{
@@ -87,6 +100,18 @@ section, header, footer{
 
 .text-white {
 	color: #FFFFFF;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
 }
 
 .background-pink {

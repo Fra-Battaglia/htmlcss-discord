@@ -165,8 +165,18 @@ button {
 	font-size: 1em;
 }
 
+.btn-white {
+	background-color: #FFFFFF;
+	color: #23272A;
+}
+
 .btn-dark {
 	background-color: #23272A;
+	color: #FFFFFF;
+}
+
+.btn-purple {
+	background-color: #8EA1E1;
 	color: #FFFFFF;
 }
 
@@ -252,7 +262,7 @@ nav ul a {
 }
 
 .text-and-img {
-	background-color: #D3D3D3;
+	background-color: #F6F6F6;
 }
 
 /* .section-image img{
@@ -262,8 +272,7 @@ nav ul a {
 /* CTA */
 
 .cta {
-	height: 800px;
-	background-color: #D3D3D3;
+	background-color: #F6F6F6;
 	text-align: center;
 }
 

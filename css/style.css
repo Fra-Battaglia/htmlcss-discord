@@ -15,7 +15,7 @@ section, header, footer{
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1000px;
 	width: 100%;
 	margin: 0 auto;
 	height: 100%;
@@ -46,6 +46,10 @@ section, header, footer{
 	width: 20%;
 }
 
+.col-25 {
+	width: 25%;
+}
+
 .col-30 {
 	width: 30%;
 }
@@ -60,6 +64,10 @@ section, header, footer{
 
 .col-70 {
 	width: 70%;
+}
+
+.col-75 {
+	width: 75%;
 }
 
 .horizontal-margin-1 {
@@ -82,6 +90,10 @@ section, header, footer{
 	padding: 2em;
 }
 
+.vertical-padding {
+	padding: 50px 0;
+}
+
 .vertical-padding-1 {
 	padding: 1em 0;
 }
@@ -92,6 +104,10 @@ section, header, footer{
 
 .text-small{
 	font-size: 13px;
+}
+
+.text-medium {
+	font-size: 40px;
 }
 
 .text-big {
@@ -227,6 +243,10 @@ nav ul a {
 }
 /* Img and Text / Text and Img*/
 
+.img-and-text p, .text-and-img p{
+	line-height: 1.5;
+}
+
 .img-and-text {
 	background-color: #FFFFFF;
 }
@@ -235,16 +255,20 @@ nav ul a {
 	background-color: #D3D3D3;
 }
 
+/* .section-image img{
+	width: 80%;
+} */
+
 /* CTA */
 
 .cta {
 	height: 800px;
 	background-color: #D3D3D3;
+	text-align: center;
 }
 
 .cta .container {
 	width: 100%;
-	height: calc(100% - 100px);
 }
 
 /* Links */

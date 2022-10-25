@@ -30,10 +30,6 @@ section, header, footer{
 	justify-content: space-between;
 }
 
-.row > * {
-	border: 1px dashed black;
-}
-
 .col{
 	width: 100%;
 }

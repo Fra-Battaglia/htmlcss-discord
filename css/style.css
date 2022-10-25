@@ -289,14 +289,12 @@ nav ul a {
 .links {
 	background-color: #23272A;
 	color: #FFFFFF;
-	height: 600px;
 	flex-direction: column;
 	justify-content: center;
 }
 
 .links .container {
 	width: 100%;
-	height: calc(100% - 30px);
 }
 
 .links .col-25 > * {
@@ -311,6 +309,21 @@ nav ul a {
 .social img {
 	height: 1em;
 	margin-right: 1em;
+}
+
+.links ul {
+	list-style: none;
+	line-height: 2;
+}
+
+.links ul a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.links ul li:first-child {
+	color: #7289DA;
+	font-weight: 600;
 }
 
 /* Footer */
